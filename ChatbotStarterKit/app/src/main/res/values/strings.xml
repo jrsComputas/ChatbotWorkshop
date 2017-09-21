@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chatbot Starter Kit</string>
+    <string name="input_hint">Question</string>
+    <string name="output_hint">The answer</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_clear">Clear</string>
 </resources>

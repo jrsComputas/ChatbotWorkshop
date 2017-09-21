@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -14,13 +12,14 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                >
                 <EditText
                     android:id="@+id/txtInput"
-                    android:layout_margin="8dp"
-                    android:hint="Input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="@string/input_hint"
                     />
             </android.support.design.widget.TextInputLayout>
 
@@ -29,15 +28,16 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_default"
+
             >
 
             <Button
                 android:id="@+id/btnSend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Send"
+                android:text="@string/btn_send"
                 android:layout_alignParentRight="true"
                 />
 
@@ -45,9 +45,8 @@
                 android:id="@+id/btnClearText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Clear"
+                android:text="@string/btn_clear"
                 android:layout_toLeftOf="@+id/btnSend"
-
                 />
 
         </RelativeLayout>
@@ -57,11 +56,11 @@
             android:layout_height="wrap_content"
             >
             <TextView
-                android:layout_margin="8dp"
+                android:layout_margin="@dimen/margin_default"
                 android:id="@+id/txtOutput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="The output will come here."
+                android:hint="@string/output_hint"
                 />
 
         </android.support.v7.widget.CardView>
