@@ -1,4 +1,4 @@
-#Setup for MacOS
+# Setup for MacOS
 
 ## What you need
  - Java 8
