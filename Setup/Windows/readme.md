@@ -27,6 +27,13 @@
 * If you have enough space and time, you can include Android 7.0 and 7.1
 5. Press apply and wait for download to finish
 
+#### Opening Android Studio for the first time
+1. Choose Custom setup, press next
+2. Choose the color theme, press next
+3. Also select Android Virtual Device, press next
+4. Wait for download to finish
+
+
 ### Android emulator
 * If you have an Android device with Android 6 or higher you can skip this step.
 1. Open Android Studio
