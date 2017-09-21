@@ -27,14 +27,23 @@ sudo apt-get install oracle-java8-set-default
 ```
 sudo unzip android-studio-ide-162.4069837-linux.zip -d /opt
 ```
-3. To start Android Studio, navigate to the directory /opt/android-studio/bin in a terminal and execute ./studio.sh
-4. Alternatively you can make a desktop file:
- #### Create a desktop file
+3. If you are running a 64-bit version of Ubuntu, you need to install some 32-bit libraries with the following command:
+```
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
+4. To start Android Studio, navigate to the directory /opt/android-studio/bin in a terminal and execute ./studio.sh
+5. Alternatively you can make a desktop file:
+ #### Create a desktop entry file
+ ##### The easy way
+1. Open Android studio (step 4)
+2. Click on Configure
+3. Choose Create Desktop Entry
+ ##### The Terminal way
  1. Create a new file androidstudio.desktop by running the command:
 ```
 nano ~/.local/share/applications/androidstudio.desktop
 ```
-2. Paste this in and save file:
+2. Paste this in and save:
 ```
 [Desktop Entry]
 Version=1.0
@@ -49,14 +58,21 @@ StartupWMClass=android-studio
 ```
 3. You can now open Android Studio from the launcher
 
+
 ### Android SDK
-1. Open Android Studio
+1. Open Android Studio, if its the first time jump down to "Opening Android Studio for the first time"
 * Start a new project if you haven't already done it
 2. Go to Tools>Android>SDK Manager
 3. Select Android 6.0 (API level 23).
 4. Check the "Show package details" box and make sure you are downloading every component you need. You can skip everything with the words "wear" or "tv" in them, but you should download the rest.
 * If you have enough space and time, you can include Android 7.0 and 7.1
 5. Press apply and wait for download to finish
+
+#### Opening Android Studio for the first time
+1. Choose Custom setup, press next
+2. Choose the color theme, press next
+3. Also select Android Virtual Device, press next
+4. Wait for download to finish
 
 ### Android emulator
 * If you have an Android device with Android 6 or higher you can skip this step.
