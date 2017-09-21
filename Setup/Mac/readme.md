@@ -23,13 +23,19 @@
 3. Drag Android Studio to the Applications folder
 
 ### Android SDK
-1. Open Android Studio
+1. Open Android Studio, if it's the first time go to "Opening Android Studio for the first time"
 * Start a new project if you haven't already done it
 2. Go to Tools>Android>SDK Manager
 3. Select Android 6.0 (API level 23).
 4. Check the "Show package details" box and make sure you are downloading every component you need. You can skip everything with the words "wear" or "tv" in them, but you should download the rest.
 * If you have enough space and time, you can include Android 7.0 and 7.1
 5. Press apply and wait for download to finish
+
+#### Opening Android Studio for the first time
+1. Choose Custom setup, press next
+2. Choose the color theme, press next
+3. Also select Android Virtual Device, press next
+4. Wait for download to finish
 
 ### Android emulator
 * If you have an Android device with Android 6 or higher you can skip this step.
