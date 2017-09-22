@@ -26,12 +26,15 @@
             android:src="@drawable/ic_send_blue"
             android:padding="@dimen/padding_default" />
     </LinearLayout>
+    <View style="@style/Divider"
+        android:id="@+id/divider"
+        android:layout_above="@id/chatInputLayout"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@id/chatInputLayout"
+        android:layout_above="@id/divider"
         android:scrollbars="vertical"
         />
 
