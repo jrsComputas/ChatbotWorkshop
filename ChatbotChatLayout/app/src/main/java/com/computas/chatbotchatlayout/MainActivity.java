@@ -23,6 +23,9 @@ import ai.api.model.AIRequest;
 import ai.api.model.AIResponse;
 
 
+/**
+ * Created by Thomas Hauglid on 21.09.2017.
+ */
 public class MainActivity extends AppCompatActivity implements AIListener {
 
     // Components
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize components
+        // setup chat
         findViews();
         mDataset = new ArrayList<Message>();
         initRecyclerView();
@@ -60,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        // specify an adapter (see also next example)
+        // specify an adapter
         mAdapter = new ChatAdapter(mDataset);
         mRecyclerView.setAdapter(mAdapter);
     }
@@ -103,7 +106,6 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         if (TextUtils.isEmpty(query)) {
             return;
         }
-
 
         mAdapter.addItem(new Message(query, ChatAdapter.VIEWTYPE_USER));
 

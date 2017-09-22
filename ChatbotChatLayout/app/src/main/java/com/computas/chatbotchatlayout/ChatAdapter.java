@@ -9,7 +9,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by kthx on 21.09.2017.
+ * Created by Thomas Hauglid on 21.09.2017.
  */
 
 public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -28,6 +28,10 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         notifyItemInserted(mDataset.size() - 1);
     }
 
+    /*
+        Gets the correct layout for the message (User/bot)
+        Returns a new instance of the viewholder
+     */
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
@@ -45,6 +49,9 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         return null;
     }
 
+    /*
+        Puts data in the layout, i.e. the text to be displayed.
+     */
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof UserViewHolder){
@@ -60,7 +67,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public int getItemCount() {
         return mDataset.size();
     }
-
+    
     @Override
     public int getItemViewType(int position) {
         return mDataset.get(position).getViewType();
