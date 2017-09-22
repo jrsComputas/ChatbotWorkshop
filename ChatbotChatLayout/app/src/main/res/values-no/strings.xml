@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Chatbot med chat oppsett</string>
     <string name="btn_send">Send</string>
-    <string name="bot_hello">Hei, velkommen til Chatbot HR. Hva kan jeg hjelpe deg med?</string>
+    <string name="bot_hello">Hei! Hva kan jeg hjelpe deg med?</string>
 
 </resources>

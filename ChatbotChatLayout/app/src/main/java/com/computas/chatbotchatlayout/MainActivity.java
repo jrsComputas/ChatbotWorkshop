@@ -56,7 +56,16 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         // Initialize ApiAi service
         initService();
 
+        addWelcomeMessage();
+
     }
+
+    private void addWelcomeMessage() {
+        String welcomeString = getString(R.string.bot_hello);
+        Message message = new Message(welcomeString, ChatAdapter.VIEWTYPE_BOT);
+        mAdapter.addItem(message);
+    }
+
 
     private void initRecyclerView(){
         // use a linear layout manager
@@ -148,7 +157,9 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                mAdapter.addItem(new Message(response.getResult().getFulfillment().getSpeech(), ChatAdapter.VIEWTYPE_BOT ) );
+                mAdapter.addItem(new Message(
+                        response.getResult().getFulfillment().getSpeech(),
+                        ChatAdapter.VIEWTYPE_BOT ) );
             }
         });
     }
@@ -159,7 +170,9 @@ public class MainActivity extends AppCompatActivity implements AIListener {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                mAdapter.addItem(new Message(error.getMessage(), ChatAdapter.VIEWTYPE_BOT ) );
+                mAdapter.addItem(new Message(
+                        error.getMessage(),
+                        ChatAdapter.VIEWTYPE_BOT ) );
 
             }
         });
