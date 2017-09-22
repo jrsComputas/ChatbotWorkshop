@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="large_text_size">18sp</dimen>
+
+    <dimen name="card_corner">8dp</dimen>
+
+    <dimen name="chat_text_max_width">256dp</dimen>
+    <dimen name="chat_image_size">32dp</dimen>
+
+</resources>

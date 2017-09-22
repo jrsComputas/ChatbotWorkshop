@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCxBlue">#04446c</color>
+    <color name="colorCxPurple">#772572</color>
+    <color name="colorChatBotBackground">#04446c</color>
+    <color name="colorChatBotText">#f0f0f0</color>
+</resources>

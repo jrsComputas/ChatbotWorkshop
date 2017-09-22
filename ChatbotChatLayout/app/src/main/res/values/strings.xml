@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Chatbot with chat layout</string>
+    <string name="input_hint">Question</string>
+    <string name="output_hint">The answer</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_clear">Clear</string>
+    <string name="user_hello">How can I order business cards and can I bring my dog to work?</string>
+    <string name="bot_hello">Hi, welcome to chatbot HR. What can i do for you?</string>
+
+</resources>

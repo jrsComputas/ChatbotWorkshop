@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatbot med chat oppsett</string>
+    <string name="input_hint">Spørsmål</string>
+    <string name="output_hint">Svaret vises her</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_clear">Tøm</string>
+    <string name="user_hello">Hvordan kan jeg bestille visittkort, og kan jeg ha med meg hunden min på jobb?</string>
+    <string name="bot_hello">Hei, velkommen til Chatbot HR. Hva kan jeg hjelpe deg med?</string>
+
+</resources>
