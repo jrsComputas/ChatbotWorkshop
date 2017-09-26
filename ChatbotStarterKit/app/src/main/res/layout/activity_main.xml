@@ -57,7 +57,9 @@
             >
             <TextView
                 android:layout_margin="@dimen/margin_default"
+                android:textSize="@dimen/text_size"
                 android:id="@+id/txtOutput"
+                android:textColor="@color/colorText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/output_hint"
