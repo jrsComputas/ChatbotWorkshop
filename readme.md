@@ -12,8 +12,8 @@
 
 
 
-##What you need to do
-###Norsk
+## What you need to do
+### Norsk
 Det er ganske mye spennende vi skal gjøre, så for at vi skal få mest mulig tid så er det fint om du tar deg tid på forhånd til å gjøre stegene du finner her. Det er ikke veldig avansert eller innviklet oppsett, men det er ganske store filer som skal lastes ned og det ville tatt veldig lang tid dersom alle skal gjøre det først når vi sitter sammen på workshopen.
 
 Se derfor gjennom instruksjonene som ligger under "Setup" og velg den platformen du bruker. Både Windows, OS X og Linux er støttet. Kanskje må du gjennom alle stegene, kanskje ikke alle og kanskje ingen i det hele tatt dersom du har prøvd deg på Android-utvikling tidligere, men husk på å gå gjennom alle og sjekk at alt er i orden. Dersom dere skulle ha problemer med å gjennomføre noen av stegene kan dere sende mail til Jon-Robert på jrs alfasnurr computas dått com.
