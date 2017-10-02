@@ -1,7 +1,7 @@
 ﻿# Setup instructions
 
 
-##**TL;DR:
+## **TL;DR:**
 - Install Android Studio
 - Install the Android SDK with the required components
 - Make sure you have Java 8
