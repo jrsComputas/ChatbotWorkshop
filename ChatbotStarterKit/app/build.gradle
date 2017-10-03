@@ -17,6 +17,25 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "precompile"
+    productFlavors {
+        normal {
+            applicationId "com.computas.kthx.chatbotstarterkit"
+            minSdkVersion 16
+            targetSdkVersion 26
+            versionCode 1
+            versionName '1.0'
+            dimension "precompile"
+        }
+        precompile {
+            applicationId "com.computas.kthx.chatbotstarterkit.precompile"
+            minSdkVersion 16
+            targetSdkVersion 26
+            versionCode 1
+            versionName '1.0'
+            dimension "precompile"
+        }
+    }
 }
 
 dependencies {

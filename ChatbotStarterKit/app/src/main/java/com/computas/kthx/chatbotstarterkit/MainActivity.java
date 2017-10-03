@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.computas.kthx.chatbotstarterkit.precompile.EnterKeyActivity;
+
 import ai.api.AIListener;
 import ai.api.AIServiceException;
 import ai.api.android.AIConfiguration;
@@ -28,11 +30,16 @@ public class MainActivity extends AppCompatActivity implements AIListener {
 
     // ApiAi services
     private AIDataService aiDataService;
-    private final String ACCESS_TOKEN = "*** INSERT TOKEN HERE ***";
+    private String ACCESS_TOKEN = "*** INSERT TOKEN HERE ***";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        if(getIntent() != null)
+            if(getIntent().hasExtra(EnterKeyActivity.API_AI_KEY))
+                ACCESS_TOKEN = getIntent().getStringExtra(EnterKeyActivity.API_AI_KEY);
+
         setContentView(R.layout.activity_main);
 
         // Initialize components

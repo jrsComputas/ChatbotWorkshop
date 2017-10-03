@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- MainActivity -->
     <string name="app_name">Chatbot Startpakke</string>
     <string name="input_hint">Spørsmål</string>
     <string name="output_hint">Svaret vises her</string>
     <string name="btn_send">Send</string>
     <string name="btn_clear">Tøm</string>
+
+    <!-- EnterKeyActivityvity -->
+    <string name="initial_header">Skriv inn key</string>
+    <string name="initial_button">Gå videre</string>
 </resources>
