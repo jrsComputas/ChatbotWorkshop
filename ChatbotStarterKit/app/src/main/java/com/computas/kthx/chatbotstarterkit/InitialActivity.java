@@ -21,7 +21,7 @@ public class InitialActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(this, EnterKeyActivity.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
     }
