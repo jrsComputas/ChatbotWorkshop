@@ -19,7 +19,7 @@
 ### Android Studio
 1. Download
   * Follow this [link](https://developer.android.com/studio/index.html) to the download page for Android Studio.
-  * or for direct download link for Mac use [this](https://dl.google.com/dl/android/studio/install/2.3.3.0/android-studio-ide-162.4069837-mac.dmg).
+  
 2. Double click on the downloaded file.
 3. Drag Android Studio to the Applications folder
 
@@ -80,5 +80,3 @@
 3. Double click icon to install
 
 4. Follow the installation guide.
-
-

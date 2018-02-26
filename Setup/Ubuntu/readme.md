@@ -22,7 +22,7 @@ sudo apt-get install oracle-java8-set-default
  ### Android Studio
 1. Download
   * Follow this [link](https://developer.android.com/studio/index.html) to the download page for Android Studio.
-  * or for direct download link for Ubuntu/linux use [this](https://dl.google.com/dl/android/studio/ide-zips/2.3.3.0/android-studio-ide-162.4069837-linux.zip).
+  
 2. Extract the archive file into an appropriate location for your applications, eg: /opt. Use the filename of your downloaded archive
 ```
 sudo unzip android-studio-ide-162.4069837-linux.zip -d /opt

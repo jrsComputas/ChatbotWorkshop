@@ -16,7 +16,6 @@
  ### Android Studio
 1. Download
   * Follow this [link](https://developer.android.com/studio/index.html) to the download page for Android Studio.
-  * For direct download link for Windows use [this](https://dl.google.com/dl/android/studio/install/2.3.3.0/android-studio-ide-162.4069837-windows.exe).
 
 ### Android SDK
 1. Open Android Studio
